@@ -125,6 +125,13 @@ export class NbUserComponent {
    * @type string
    */
   @Input() color: string;
+  
+  /**
+   * Color of the border 
+   * @type string
+   */
+  @Input() borderColor: string;
+
 
   /**
    * Size of the component, small|medium|large|xlarge
