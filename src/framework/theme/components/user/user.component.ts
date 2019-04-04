@@ -136,7 +136,7 @@ export class NbUserComponent {
    * Width (in px) of the border 
    * @type string
    */
-  @Input() borderWidthr: string;
+  @Input() borderWidth: string;
 
   /**
    * Size of the component, small|medium|large|xlarge
